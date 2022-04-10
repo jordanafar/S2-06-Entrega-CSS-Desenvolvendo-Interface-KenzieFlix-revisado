@@ -1,0 +1,126 @@
+html {
+    background: #000000;
+    font-family: 'IBM Plex Sans';
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 800px;
+    width:100%;
+}
+
+
+.subtitulo{ 
+    font-size: 32px;
+    color:#FFFFFF;
+    font-weight: normal;
+    text-align: center;
+}
+
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 700px;
+    border: none;
+}
+.usuario{
+    width: 160px;
+}
+.avatar{
+    overflow: hidden;
+    width: 160px;  
+    height: 160px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid transparent;
+}
+
+/*.avatar:hover{
+    border: solid #FFFFFF;
+}*/
+
+.avatar img{
+    width: 160px;  
+    height: 160px;
+    margin:  0 auto;
+    border: 0;
+    width: 160px;  
+    height: 160px;
+    display:flex;    
+}
+
+/*.avatar img:hover{
+    transform: scale(1.2);
+    width: 160px;  
+    height: 160px;
+}*/
+
+.usuario img{ 
+    transition: all 0.3s;           
+}
+
+.usuario:hover .legenda{
+    color: #FFFFFF;
+}
+
+.usuario:hover .avatar{
+    border: solid #FFFFFF;
+}
+
+.usuario:hover .avatar img{
+    transform: scale(1.2);
+}
+
+.legenda{
+    color: #9C9C9C;
+    font-size: 14px;
+    text-align: center;    
+}
+
+/*.legenda:hover{
+    color:#FFFFFF;
+}*/
+
+#mais{
+    background-image: url(/imagens/Frame\ 5\ \(2\).png);
+    width : 160px;  
+    height: 160px;
+    border-radius:5px;
+}
+
+/*#mais:hover{
+    background-image: url(/imagens/Frame\ 5\ \(3\).png);
+    width : 160px;  
+    height: 160px;
+    border: none;
+}*/
+
+.usuario:hover #mais{
+    background-image: url(/imagens/Frame\ 5\ \(3\).png);
+    width : 160px;  
+    height: 160px;
+    border: none;  
+}
+
+.button{
+    color: #FFFFFF;
+    font-style: Medium;
+    font-size:16px;
+    border-color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 0 auto;
+    display:flex;
+    max-width: 206px;
+    padding: 20px ;
+}
+
+.button:hover {
+    background-color:#FFFFFF;
+    color:#000000;
+}
